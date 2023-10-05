@@ -294,6 +294,7 @@ body {
     padding: 20px 20px 20px 35px;
     font-size: 20px;
     margin-right: 25px;
+    color: #FFF;
 }
 
 .send {
@@ -405,6 +406,10 @@ body {
         max-width: 1070px;
     }
 
+    .footer-left {
+        max-width: 60vw;
+    }
+
     .logo1 {
         font-size: 20px;
     }
@@ -437,14 +442,14 @@ body {
     }
     
     .input {
-        width: 200px;
+        width: 19vw;
         padding: 15px 15px 20px 35px;
         font-size: 17px;
         margin-right: 20px;
     }
     
     .send {
-        padding: 10px 60px;
+        padding: 10px 4vw;
         margin: 0 40px 0 0;
     } 
 }
@@ -552,14 +557,14 @@ body {
     }
     
     .input {
-        width: 170px;
+        width: 17vw;
         padding: 15px 10px 15px 30px;
         font-size: 16px;
         margin-right: 15px;
     }
     
     .send {
-        padding: 10px 50px;
+        padding: 10px 4vw;
         margin: 0 40px 0 0;
         font-size: 18px;
     } 
@@ -837,7 +842,7 @@ body {
     }
 
     .star {
-        width: 110px;
+        width: 16vw;
     }
 
     .title1 {
@@ -947,11 +952,15 @@ body {
     }
 
     .comment {
-        max-width: 430px;
+        width: 90vw;
     }
 
     .inform {
         max-width: 370px;
+    }
+
+    .star {
+        width: 23vw;
     }
 
     .title1 {
@@ -1001,6 +1010,7 @@ body {
 
     .input-info {
         font-size: 20px;
+        width: 100vw;
     }
 
     .input-form {
@@ -1032,7 +1042,7 @@ body {
 
     .section-right {
         width: 83vw;
-        height: 73.9vw
+        height: 73.9vw;
     }
 
     .section-logos {
@@ -1040,13 +1050,12 @@ body {
     }
 
     .logos {
-        background-image: url(./img/media-logos2.png);
-        width: 84vw;
-        height: 21vw;
+        width: 90vw;
+        height: 25vw;
     }
 
     .comment {
-        max-width: 335px;
+        width: 90vw;
     }
 
     .inform {
@@ -1059,7 +1068,11 @@ body {
     }
 
     .jony {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .star {
+        width: 32vw;
     }
 
     .icon-title {
@@ -1085,7 +1098,7 @@ body {
 
     .section-right1 {
         width: 83vw;
-        height: 66.3vw;
+        height: 65.9vw;
     }
 
     .line {
@@ -1097,7 +1110,8 @@ body {
     }
 
     .footer-left {
-        max-width: 200px;    
+        max-width: 200px; 
+        
     }
   
     .logo1 {
@@ -1112,5 +1126,10 @@ body {
 
     .wraper-input {
         text-align: center;
+    }
+
+    .input-info {
+        font-size: 18px;
+        width: 98vw;
     }
 }
