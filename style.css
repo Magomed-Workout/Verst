@@ -870,10 +870,12 @@ body {
 
     .input-info {
         font-size: 16px;
+        width: 130px;
     }
 
     .send {
-        margin: 0 30px 0 0;
+        padding: 10px 45px;
+        font-size: 17px;
     } 
 }
 
@@ -909,6 +911,11 @@ body {
     .subtitle {
         margin-bottom: 72px;
         margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 20px;
     }
 
     .section-right {
@@ -930,8 +937,13 @@ body {
         display: block;
     }
 
+    .icon-title {
+        font-size: 20px;
+    }
+
     .text {
         margin: 20px auto;
+        font-size: 16px;
     }
 
     .comment {
@@ -951,6 +963,7 @@ body {
         margin-bottom: 72px;
         margin-top: 30px;
         max-width: 310px;
+        font-size: 20px;
     }
 
     .section-right1 {
@@ -983,10 +996,11 @@ body {
 
     .wraper-input {
         margin: 40px auto;
+        text-align: center;
     }
 
     .input-info {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .input-form {
@@ -994,7 +1008,7 @@ body {
     }
 
     .input {
-        width: 380px;
+        width: 68vw;
         padding: 15px 10px 15px 40px;
         font-size: 18px;
         margin: 0 20px 40px 20px;
@@ -1002,14 +1016,14 @@ body {
 
     .send {
         margin: 0 20px;
-        padding: 12px 190px;
+        padding: 12px 34vw;
         font-size: 20px;
     } 
 }
 
 @media screen and (max-width:375px) {
     .logo {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .subtitle {
@@ -1083,8 +1097,7 @@ body {
     }
 
     .footer-left {
-        max-width: 200px; 
-        
+        max-width: 200px;    
     }
   
     .logo1 {
@@ -1100,12 +1113,4 @@ body {
     .wraper-input {
         text-align: center;
     }
-
-    .input {
-        width: 280px;
-    }
-
-    .send {
-       padding: 13px 140px;
-    } 
 }
