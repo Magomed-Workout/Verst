@@ -1031,6 +1031,27 @@ body {
     } 
 }
 
+@media screen and (max-width:400px) {
+    .section-right {
+        width: 79vw;
+        height: 70vw;
+    }
+
+    .section-logos {
+        width: 88vw;
+    }
+
+    .logos {
+        width: 80vw;
+        height: 20vw;
+    }
+    
+    .section-right1 {
+        width: 78vw;
+        height: 62vw;
+    }
+}
+
 @media screen and (max-width:375px) {
     .logo {
         font-size: 20px;
