@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-    max-width: 1620px; 
+    max-width: 85vw; 
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -105,7 +105,7 @@ body {
 }
 
 .section-logos {
-    max-width: 1620px;
+    max-width: 85vw;
     margin: 0 auto;
 }
 
@@ -127,7 +127,7 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    max-width: 1300px; 
+    max-width: 80vw; 
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -147,7 +147,7 @@ body {
     margin: 100px auto;
     background-color: #BFAFF2;
     border-radius: 10px;
-    max-width: 1380px;
+    max-width: 70vw;
 }
 
 .inform {
@@ -205,7 +205,7 @@ body {
 
 
 .line {
-    max-width: 1760px;
+    max-width: 85vw;
     margin: 0 auto;
 }
 
@@ -228,7 +228,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 0 0 50px 70px;
+    margin: 0 0 50px 50px;
     font-weight: 600;
 }
 
@@ -302,13 +302,87 @@ body {
     padding: 20px 70px;
     background-color: #BFAFF2;
     border-radius: 15px;
-    margin: 0 70px 0 0;
+    margin: 0 30px 0 0;
     transition: 0.3s all ease-in-out;
     font-size: 20px;
 }
 
 .send:hover {
     background-color: #F8D57E;
+}
+
+@media screen and (max-width:1440px) {
+    .title {
+        font-size: 80px;
+        max-width: 620px;
+    }
+
+    .subtitle {
+        max-width: 550px;
+        font-size: 24px;
+    }
+
+    .logos {
+        width: 69vw;
+        height: 3vw;
+    }
+
+    .comment {
+        width: 85vw;
+    }
+
+    .com-user {
+        padding: 0 0 70px 160px;
+    }
+
+    .title1 {
+        max-width: 500px;
+    }
+
+    .subtitle1 {
+        max-width: 460px;
+        font-size: 24px;
+    }
+
+    .wallet {
+        margin-right: 20px;
+        font-size: 24px;
+    }
+
+    .privacy {
+        margin-right: 20px;
+        font-size: 24px;
+    }
+
+    .cookies {
+        margin-right: 20px;
+        font-size: 24px;
+    }
+
+    .terms {
+        font-size: 24px;
+    }
+ 
+    .input {
+        width: 17vw;
+        padding: 20px 30px 20px 35px;
+    }
+
+    .send {
+        margin: 0 15px 0 0;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .input {
+        width: 12vw;
+        font-size: 18px;
+    }
+
+    .send {
+        font-size: 18px;
+        padding: 15px 3vw;
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -527,10 +601,6 @@ body {
 
     .line {
         max-width: 930px;
-    }
-
-    .nav-bar1 {
-        margin: 0 0 50px 50px;
     }
 
     .wallet {
@@ -1137,12 +1207,6 @@ body {
   
     .logo1 {
         margin: 0 0 30px 50px;
-    }
-
-    .nav-bar1 {
-        margin: 0 0 50px 40px;
-        line-height: 40px;
-        flex-direction: column-reverse;
     }
 
     .wraper-input {
